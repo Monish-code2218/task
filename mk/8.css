@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.signup-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-btn:hover {
+    background-color: #218838;
+}

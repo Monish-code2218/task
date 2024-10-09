@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(91, 81, 81);
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(47, 46, 44);
+    border-radius: 20px;
+    gap: 10px;
+
+}
+
+.game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+
+
+}
+
+.Miles,
+.Peter,
+.Astro {
+
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgb(255, 255, 255);
+    background-color: rgb(227, 116, 116);
+
+
+}
+
+.Milescontainer,
+.Petercontainer,
+.Astrocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.Playstation-5,
+.Spiderman,
+.Godofwar,
+.Metaquest3,
+.Gamingkeyboard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Playstation-4,
+.GrandTheftAutoV,
+.Fifa-25,
+.MetaquestController,
+.Gamingmouse {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+
+
+}
