@@ -1,0 +1,23 @@
+div>
+        <p>Subscribe & get exculisve deals</p>
+        <img src="Vector (1).png" alt="">
+        <img src="Vector.png" alt="">
+        <img src="Group 42.png" alt="">
+    </div>
+    div{
+        width: 80%;
+        height: 30%;
+        background-color: rgb(255, 123, 0);
+        border: 0.5px;
+        border-color: white;
+        border-radius: 5px;
+    
+    
+    }
+    p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px
+    
+    }
